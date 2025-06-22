@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f4f4f4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px;
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: #444;
+  background-color: #d600ff;
+  padding-left: 300px;
+  padding-right: 300px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.plans {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.plan {
+  background-color: #000;
+  color: white;
+  width: 250px;
+  padding: 30px;
+  border-radius: 15px;
+  transition: 0.3s;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  text-align: center;
+  position: relative;
+}
+
+.plan h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.plan p {
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.plan:hover {
+  transform: scale(1.05);
+  background: linear-gradient(135deg, #6e00ff, #d600ff);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+}
+
+.plan:hover p {
+  color: #fff;
+}
+
+.price {
+  font-size: 22px;
+  margin: 15px 0;
+  font-weight: bold;
+}
+
+.unique-hover-1:hover {
+  border: 2px solid #ff0099;
+}
+
+.unique-hover-2:hover {
+  border: 2px dashed #00ffff;
+}
+
+.unique-hover-3:hover {
+  border: 2px dotted #00ff6e;
+}
